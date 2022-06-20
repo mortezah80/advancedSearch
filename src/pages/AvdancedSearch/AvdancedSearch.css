@@ -1,0 +1,22 @@
+.AvdancedSearch {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.AvdancedSearchTop1 {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+
+}
+.AvdancedSearchTop2 {
+    width: 100%;
+    height: 170px;
+    background-color: green;
+}
+.AvdancedSearchBody {
+    width: 100%;
+    height: 100%;
+}
+
+
