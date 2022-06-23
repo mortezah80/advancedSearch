@@ -33,6 +33,9 @@ function AvdancedSearch_BodyContent() {
             <SearchInformationBox/>
             <SearchInformationBox/>
             <SearchInformationBox/>
+            <SearchInformationBox/>
+            <SearchInformationBox/>
+            <SearchInformationBox/>
         </div>
 
     </div>

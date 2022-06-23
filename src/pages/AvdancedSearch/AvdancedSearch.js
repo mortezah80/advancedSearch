@@ -13,6 +13,9 @@ function AvdancedSearch() {
 
         </div>
         <div className='AvdancedSearchBody'>
+            <div className='AvdancedSearchBodyjustfornothing'>
+
+            </div>
             <div className='AvdancedSearchBodyAbs'>
                 <div className='AvdancedSearchBody_Top'>
 
