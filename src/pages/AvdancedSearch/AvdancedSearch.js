@@ -65,7 +65,47 @@ function AvdancedSearch() {
                 </div>
                 <div className='AvdancedSearchBody_Bottom'>
                     <div className='ASB_BottomRight'>
-                        <AvdancedSearch_BodyLists/>
+                        <div className='ASB_BottomRightToggle'>
+                            <div className='ASB_BottomRightToggle1'>
+                                <div className='ASB_BottomRightToggle1Abs'>
+                                    <div className='ASB_BottomRightToggleText'>
+                                        <span>تایتل اول</span>
+                                    </div>
+                                </div>
+                                <div className='ASB_BottomRightToggle1More'>
+
+                                </div>
+                            </div>
+                            <div className='ASB_BottomRightToggle2'>
+                                <div className='ASB_BottomRightToggle2Abs'>
+                                    <div className='ASB_BottomRightToggleText'>
+                                        <span>تایتل دوم</span>
+                                    </div>
+                                  
+                                </div>
+                                <div className='ASB_BottomRightToggle2More'>
+                                    
+                                </div>
+                                <div className='ASB_BottomRightToggle2MoreBottom'>
+
+                                </div>
+                            </div>
+
+                            <div className='ASB_BottomRightToggle3'>
+                                <div className='ASB_BottomRightToggle3Abs'>
+                                    <div className='ASB_BottomRightToggleText'>
+                                        <span>تایتل سوم</span>
+                                    </div>
+                                </div>
+                                <div className='ASB_BottomRightToggle3More'>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div className='ASB_BottomRightContent'>
+                            <AvdancedSearch_BodyLists/>
+                        </div>
+                        
                     </div>
 
                     <AvdancedSearch_BodyContent/>

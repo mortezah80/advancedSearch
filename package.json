@@ -12,6 +12,7 @@
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
     "react-sortable-hoc": "^2.0.0",
+    "string-to-color": "^2.2.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
