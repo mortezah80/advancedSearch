@@ -1,6 +1,7 @@
 import React , {useState} from 'react'
 import './AvdancedSearch.css'
 import AvdancedSearch_BodyContent from './AdvancedSearch_BodyContent/AvdancedSearch_BodyContent'
+import AvdancedSearch_BodyLists from './AvdancedSearch_BodyLists/AvdancedSearch_BodyLists'
 
 function AvdancedSearch() {
   const [LHActiveButton , setLHActiveButton] = useState(1)
@@ -64,7 +65,7 @@ function AvdancedSearch() {
                 </div>
                 <div className='AvdancedSearchBody_Bottom'>
                     <div className='ASB_BottomRight'>
-
+                        <AvdancedSearch_BodyLists/>
                     </div>
 
                     <AvdancedSearch_BodyContent/>

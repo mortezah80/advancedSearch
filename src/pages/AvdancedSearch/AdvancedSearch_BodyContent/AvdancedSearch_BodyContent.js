@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchInformationBox from '../../../components/SearchInformationBox/SearchInformationBox'
+import AdvancedSearch_Filters from './AdvancedSearch_Filters'
 import AdvancedSearch_Pagination from './AdvancedSearch_Pagination'
 import './AvdancedSearch_BodyContent.css'
 
@@ -22,7 +23,7 @@ function AvdancedSearch_BodyContent() {
         </div>
 
         <div className='ASB_BLeft_Filters'>
-
+      
         </div>
 
         <div className='ASB_BLeft_Pagination'>

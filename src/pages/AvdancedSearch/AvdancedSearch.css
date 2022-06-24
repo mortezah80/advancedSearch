@@ -181,4 +181,5 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     height: 600px;
     background-color: rgb(242, 245, 250);
     border-radius: 22px;
+    box-shadow: -2px 5px 25px 1px rgba(57, 57, 57, 0.151);
 }
