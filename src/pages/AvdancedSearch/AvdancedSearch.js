@@ -2,8 +2,21 @@ import React , {useState} from 'react'
 import './AvdancedSearch.css'
 import AvdancedSearch_BodyContent from './AdvancedSearch_BodyContent/AvdancedSearch_BodyContent'
 import AvdancedSearch_BodyLists from './AvdancedSearch_BodyLists/AvdancedSearch_BodyLists'
+import LogoImg from '../../Logo.png'
+
+import Drawer from '@mui/material/Drawer';
 
 function AvdancedSearch() {
+    
+    const [toggleList , setToggleList] = useState(1)
+
+
+    const handleDrawer = () => {
+        setDP_DrawerB (true)
+    }
+
+
+  const [DP_DrawerB,setDP_DrawerB] = useState(true)
   const [LHActiveButton , setLHActiveButton] = useState(1)
   return (
     <div className='AvdancedSearch'>
@@ -22,7 +35,7 @@ function AvdancedSearch() {
 
                     <div className='ASB_TopRight'>
                         <div className='ASB_TopRightIcon'>
-
+                            <img src = {LogoImg} alt="logo" />
                         </div>
                         <div className='ASB_TopRightTexts'>
                             <span className='ASB_TopRightText1'>جست و جوی پیشرفته</span>
@@ -67,17 +80,17 @@ function AvdancedSearch() {
                     <div className='ASB_BottomRight'>
                         <div className='ASB_BottomRightToggle'>
                             <div className='ASB_BottomRightToggle1'>
-                                <div className='ASB_BottomRightToggle1Abs'>
+                                <div className={['ASB_BottomRightToggle1Abs' , toggleList===1 ? "ASB_BottomRightToggleAbs1Select" : "" ].join(" ")}  onClick={() => setToggleList(1)}>
                                     <div className='ASB_BottomRightToggleText'>
                                         <span>تایتل اول</span>
                                     </div>
                                 </div>
-                                <div className='ASB_BottomRightToggle1More'>
+                                <div className={['ASB_BottomRightToggle1More' , toggleList===1? "ASB_BottomRightToggleMore1Select" : ""].join(" ")}>
 
                                 </div>
                             </div>
                             <div className='ASB_BottomRightToggle2'>
-                                <div className='ASB_BottomRightToggle2Abs'>
+                                <div className={['ASB_BottomRightToggle2Abs' , toggleList===2 ? "ASB_BottomRightToggleAbs2Select" : "" ].join(" ")} onClick={() => setToggleList(2)}>
                                     <div className='ASB_BottomRightToggleText'>
                                         <span>تایتل دوم</span>
                                     </div>
@@ -92,7 +105,7 @@ function AvdancedSearch() {
                             </div>
 
                             <div className='ASB_BottomRightToggle3'>
-                                <div className='ASB_BottomRightToggle3Abs'>
+                                <div className={['ASB_BottomRightToggle3Abs' , toggleList===3 ? "ASB_BottomRightToggleAbs2Select" : "" ].join(" ")} onClick={() => setToggleList(3)}>
                                     <div className='ASB_BottomRightToggleText'>
                                         <span>تایتل سوم</span>
                                     </div>
@@ -108,12 +121,58 @@ function AvdancedSearch() {
                         
                     </div>
 
-                    <AvdancedSearch_BodyContent/>
+                    <AvdancedSearch_BodyContent handleDrawer={handleDrawer}/>
 
                 </div>
+                
+                
             </div>
         </div>
-      
+        <Drawer   className="AdvancedSearch_Drawer" anchor={'right'} open={DP_DrawerB} onClose={() => setDP_DrawerB(false)} >
+            <div className='ASB_BottomRight ASB_BottomRightDrawer'>
+                <div className='ASB_BottomRightToggle ASB_BottomRightToggleDrawer'>
+                    <div className='ASB_BottomRightToggle1'>
+                        <div className={['ASB_BottomRightToggle1Abs' , toggleList===1 ? "ASB_BottomRightToggleAbs1Select" : "" ].join(" ")}  onClick={() => setToggleList(1)}>
+                            <div className='ASB_BottomRightToggleText'>
+                                <span>تایتل اول</span>
+                            </div>
+                        </div>
+                        <div className={['ASB_BottomRightToggle1More' , toggleList===1? "ASB_BottomRightToggleMore1Select" : ""].join(" ")}>
+
+                        </div>
+                    </div>
+                    <div className='ASB_BottomRightToggle2'>
+                        <div className={['ASB_BottomRightToggle2Abs' , toggleList===2 ? "ASB_BottomRightToggleAbs2Select" : "" ].join(" ")} onClick={() => setToggleList(2)}>
+                            <div className='ASB_BottomRightToggleText'>
+                                <span>تایتل دوم</span>
+                            </div>
+                            
+                        </div>
+                        <div className='ASB_BottomRightToggle2More'>
+                            
+                        </div>
+                        <div className='ASB_BottomRightToggle2MoreBottom'>
+
+                        </div>
+                    </div>
+
+                    <div className='ASB_BottomRightToggle3'>
+                        <div className={['ASB_BottomRightToggle3Abs' , toggleList===3 ? "ASB_BottomRightToggleAbs2Select" : "" ].join(" ")} onClick={() => setToggleList(3)}>
+                            <div className='ASB_BottomRightToggleText'>
+                                <span>تایتل سوم</span>
+                            </div>
+                        </div>
+                        <div className='ASB_BottomRightToggle3More'>
+
+                        </div>
+                    </div>
+                </div>
+                <div className='ASB_BottomRightContent'>
+                    <AvdancedSearch_BodyLists/>
+                </div>
+                
+            </div>
+        </Drawer>
     </div>
   )
 }

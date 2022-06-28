@@ -3,11 +3,15 @@ import SearchInformationBox from '../../../components/SearchInformationBox/Searc
 import AdvancedSearch_Filters from './AdvancedSearch_Filters'
 import AdvancedSearch_Pagination from './AdvancedSearch_Pagination'
 import './AvdancedSearch_BodyContent.css'
+import {HiMenu} from 'react-icons/hi'
 
-function AvdancedSearch_BodyContent() {
+function AvdancedSearch_BodyContent(props) {
   return (
     <div className='ASB_BottomLeft'>
         <div className='ASB_BLeft_Header'>
+            <div className='ASB_BLeft_HeaderHimenu' onClick={() => props.handleDrawer()}>
+                <HiMenu/>
+            </div>
             <div className='ASB_BLeft_HeaderTexts'>
                 <div className='ASB_BLeft_HeaderText1Container'>
                     <span className='ASB_BLeft_HeaderText1Normal'>مدیریت کلمات کلیدی</span>

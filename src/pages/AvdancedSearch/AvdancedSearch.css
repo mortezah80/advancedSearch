@@ -30,7 +30,7 @@
 .AvdancedSearchBodyjustfornothing {
     height: 100px;
     width: 5%;
-    background-color: red;
+
 }
 .AvdancedSearchBodyAbs {
     top:-150px;
@@ -64,6 +64,9 @@
 }
 .ASB_TopRightIcon {
     flex:0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ASB_TopRightTexts {
     display: flex;
@@ -184,6 +187,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     box-shadow: -2px 5px 25px 1px rgba(57, 57, 57, 0.151);
     display: flex;
     align-items: flex-start;
+    min-width: 280px;
 }
 .ASB_BottomRightToggle {
     height: 100%;
@@ -199,6 +203,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     height: 100%;
 }
 .ASB_BottomRightToggle1 {
+    cursor: pointer;
     height: 28%;
     width: 100%;
     position: relative;
@@ -216,6 +221,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 .ASB_BottomRightToggle2 {
+    cursor: pointer;
     height: 28%;
     width: 100%;
     position: relative;
@@ -235,6 +241,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 .ASB_BottomRightToggle3 {
+    cursor: pointer;
     height: calc(50% + 10px);
     width: 100%;
     position: relative;
@@ -293,4 +300,60 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 .ASB_BottomRightToggleText > span {
     word-wrap:normal;
+}
+
+.ASB_BottomRightToggleAbs1Select {
+    border-right:3px solid gold;
+
+}
+.ASB_BottomRightToggleAbs1Select span {
+    color:rgb(251, 255, 0) !important;
+}
+.ASB_BottomRightToggleAbs2Select {
+    border-left:3px solid gold;
+}
+.ASB_BottomRightToggleAbs2Select span {
+    color:rgb(251, 255, 0) !important;
+}
+.AdvancedSearch_Drawer {
+    direction: rtl !important;
+    height: 1000px;
+}
+.ASB_BottomRightToggleDrawer {
+    height: 600px;
+}
+
+
+@media screen and ( max-width : 1034px ) {
+    .ASB_BottomRight {
+        display: none;
+    }
+    .ASB_BottomRightDrawer {
+        display: flex;
+    }
+}
+
+
+@media screen and ( max-width : 588px )  {
+    .AvdancedSearchBody_Top {
+        flex-direction: column;
+    }
+    .ASB_TopLeft {
+        width: 370px;
+        margin-top:10px;
+    }
+}
+
+@media screen and ( max-width : 433px )  {
+    .AvdancedSearchBody_Top {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .ASB_TopLeft {
+        width: 340px;
+        margin-top:10px;
+    }
+    .ASB_TopRight {
+        width: 90%;
+    }
 }
