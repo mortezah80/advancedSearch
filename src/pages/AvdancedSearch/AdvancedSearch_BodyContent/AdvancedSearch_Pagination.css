@@ -125,7 +125,7 @@
     display: none;
 }
 
-@media screen and ( max-width : 1037px ) {
+@media screen and ( max-width : 1237px ) {
     .LinksC_PaginationResultGotoResponsive {
         display: flex;
         margin-top:20px;
@@ -136,7 +136,32 @@
     .LinksC_PaginationContainer {
         flex-direction: column;
     }
+    .LinksC_PaginationResultContainerRes  {
+        display: none;
+    }
 }
+
+
+
+
+@media screen and ( max-width : 500px ) {
+    .LinksC_PaginationButton {
+        width: 55px;
+        height: 20px;
+
+        font-size:10px;
+    }
+    .LinksC_PaginationNumber {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .LinksC_PaginationGoToContainer {
+        width: 150px;
+        padding-right: 10px;
+    }
+}
+
 @media screen and ( max-width : 457px ) {
     .LinksC_PaginationNumberResNone {
         display: none;
@@ -146,16 +171,6 @@
     }
 }
 
-@media screen and ( max-width : 1100px )  {
-    .LinksC_PaginationContainer {
-        position: sticky;
-        top:0px;
-        z-index: 10;
-        background-color: white;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        box-shadow:3px 3px 7px 1px rgba(202, 202, 202, 0.5);
-        margin-top:0px;
-    }
-    
+@media screen and ( max-width : 375px ) {
+
 }

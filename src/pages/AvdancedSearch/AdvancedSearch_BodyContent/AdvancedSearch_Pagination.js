@@ -4,7 +4,7 @@ import './AdvancedSearch_Pagination.css'
 function AdvancedSearch_Pagination(props) {
   return (
     <div className='LinksC_PaginationContainer'>
-        <div className='LinksC_PaginationResultContainer'>
+        <div className='LinksC_PaginationResultContainer LinksC_PaginationResultContainerRes'>
           <span className='LinksC_PaginationResult LinksC_PaginationBeforeRes'>صفحه 5 از 251</span>
         </div>
 
@@ -29,7 +29,9 @@ function AdvancedSearch_Pagination(props) {
           </div>
         </div>
         <div className='LinksC_PaginationResultGotoResponsive'>
+          <div className='LinksC_PaginationResultContainer'>
             <span className='LinksC_PaginationResult'>صفحه 5 از 251</span>
+          </div>
             <div className='LinksC_PaginationGoToContainer'>
               <span className='LinksC_PaginationGoToTitle'>رفتن به صفحه :</span>
               <div className='LinksC_PaginationGoToInputContainer'>

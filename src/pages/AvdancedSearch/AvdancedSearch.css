@@ -282,19 +282,31 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
     width: 100%;
     height: 100%; 
     position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+ 
 }
 
+.AvdancedSearchBodyjustfornothing {
+    height: 100px;
+    width: 5%;
 
-
+}
 .AvdancedSearchBodyAbs {
     top:-150px;
-    position: absolute;
+
     background-color:transparent;
     height: 100vh;
     width: 95%;
     left:0px;
     padding-left:40px;
     box-sizing: border-box;
+    max-width: 1500px;
+    margin:auto;
+    margin-top:-150px;
+  
+
 }
 
 
@@ -313,6 +325,9 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
 }
 .ASB_TopRightIcon {
     flex:0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ASB_TopRightTexts {
     display: flex;
@@ -430,4 +445,176 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     height: 600px;
     background-color: rgb(242, 245, 250);
     border-radius: 22px;
+    box-shadow: -2px 5px 25px 1px rgba(57, 57, 57, 0.151);
+    display: flex;
+    align-items: flex-start;
+    min-width: 280px;
+}
+.ASB_BottomRightToggle {
+    height: 100%;
+    width: 40px;
+    background-color: rgb(48, 93, 222);
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+.ASB_BottomRightContent {
+    width: 88%;
+    margin-right:-0px;
+
+    height: 100%;
+}
+.ASB_BottomRightToggle1 {
+    cursor: pointer;
+    height: 28%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: left;
+}
+.ASB_BottomRightToggle1Abs {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(48, 93, 222);
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    z-index: 100;
+}
+
+.ASB_BottomRightToggle2 {
+    cursor: pointer;
+    height: 28%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top:-36px;
+}
+.ASB_BottomRightToggle2Abs {
+    bottom: 0px;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(37, 65, 148);
+    border-top-left-radius: 22px;
+    z-index: 100;
+    border-bottom-right-radius: 22px;
+}
+
+.ASB_BottomRightToggle3 {
+    cursor: pointer;
+    height: calc(50% + 10px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin-top:-40px;
+
+}
+.ASB_BottomRightToggle3Abs {
+    bottom: 0px;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(48, 93, 222);
+    border-top-left-radius: 22px;
+
+    z-index: 100;
+}
+
+
+.ASB_BottomRightToggle1More {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(48, 93, 222);
+    z-index: 80;
+}
+.ASB_BottomRightToggle2More {
+    height: 80%;
+    width: 30%;
+    background-color: rgb(37, 65, 148);
+}
+
+.ASB_BottomRightToggle3More {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(48, 93, 222);
+}
+.ASB_BottomRightToggle2MoreBottom {
+    background-color: rgb(37, 65, 148);
+    height: 120%;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.ASB_BottomRightToggleText {
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    margin-right:-30px;
+    margin-top:60px;
+    color:rgba(255, 255, 255, 0.701);
+    font-size: 11px;
+}
+.ASB_BottomRightToggleText > span {
+    word-wrap:normal;
+}
+
+.ASB_BottomRightToggleAbs1Select {
+    border-right:3px solid gold;
+
+}
+.ASB_BottomRightToggleAbs1Select span {
+    color:rgb(251, 255, 0) !important;
+}
+.ASB_BottomRightToggleAbs2Select {
+    border-left:3px solid gold;
+}
+.ASB_BottomRightToggleAbs2Select span {
+    color:rgb(251, 255, 0) !important;
+}
+.AdvancedSearch_Drawer {
+    direction: rtl !important;
+    height: 1000px;
+}
+.ASB_BottomRightToggleDrawer {
+    height: 600px;
+}
+
+
+@media screen and ( max-width : 1034px ) {
+    .ASB_BottomRight {
+        display: none;
+    }
+    .ASB_BottomRightDrawer {
+        display: flex;
+    }
+}
+
+
+@media screen and ( max-width : 588px )  {
+    .AvdancedSearchBody_Top {
+        flex-direction: column;
+    }
+    .ASB_TopLeft {
+        width: 370px;
+        margin-top:10px;
+    }
+}
+
+@media screen and ( max-width : 433px )  {
+    .AvdancedSearchBody_Top {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .ASB_TopLeft {
+        width: 340px;
+        margin-top:10px;
+    }
+    .ASB_TopRight {
+        width: 90%;
+    }
 }

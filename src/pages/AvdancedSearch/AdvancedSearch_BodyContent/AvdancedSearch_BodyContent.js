@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import SearchInformationBox from '../../../components/SearchInformationBox/SearchInformationBox'
+import AdvancedSearch_Filters from './AdvancedSearch_Filters'
 import AdvancedSearch_Pagination from './AdvancedSearch_Pagination'
 import './AvdancedSearch_BodyContent.css'
 import Select from 'react-select';
@@ -8,14 +9,19 @@ import SelectCoPrimary from './itemsetDesign/SelectCoPrimary';
 import SearchBar from './itemsetDesign/SearchBar';
 import CustomSwitch from './itemsetDesign/CustomSwitch';
 import CustomizedSwitches from './itemsetDesign/CustomCheck';
-function AvdancedSearch_BodyContent() {
-  const [filterSort , setFilterSort] = useState(1);
-  const setVal = (val)=>{
-    setFilterSort(val);
-  }
+import {HiMenu} from 'react-icons/hi'
+
+function AvdancedSearch_BodyContent(props) {
+    const [filterSort , setFilterSort] = useState(1);
+    const setVal = (val)=>{
+      setFilterSort(val);
+    }
   return (
     <div className='ASB_BottomLeft'>
         <div className='ASB_BLeft_Header'>
+            <div className='ASB_BLeft_HeaderHimenu' onClick={() => props.handleDrawer()}>
+                <HiMenu/>
+            </div>
             <div className='ASB_BLeft_HeaderTexts'>
                 <div className='ASB_BLeft_HeaderText1Container'>
                     <span className='ASB_BLeft_HeaderText1Normal'>مدیریت کلمات کلیدی</span>
@@ -47,6 +53,7 @@ function AvdancedSearch_BodyContent() {
                     <CustomSwitch setVal={setVal} active={filterSort}/>
                 </div>
             </div>
+      
         </div>
 
         <div className='ASB_BLeft_Pagination'>
@@ -54,6 +61,9 @@ function AvdancedSearch_BodyContent() {
         </div>
 
         <div className='ASB_BLeft_Feed'>
+            <SearchInformationBox/>
+            <SearchInformationBox/>
+            <SearchInformationBox/>
             <SearchInformationBox/>
             <SearchInformationBox/>
             <SearchInformationBox/>

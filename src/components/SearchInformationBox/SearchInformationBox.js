@@ -1,9 +1,11 @@
-import React from 'react'
+import React , {useState} from 'react'
 import './SearchInformationBox.css'
+import {FaChevronDown,FaChevronUp} from 'react-icons/fa'
 
 function SearchInformationBox() {
+    const [show , setShow] = useState(true)
   return (
-    <div className='SearchInformationBox'>
+    <div className='SearchInformationBox' style={{height: show ? "auto" : "420px" , paddingBottom:show? "20px" : "4px"}}>
         <div className='SIBOX_TitleContainer'>
             <span className='SIBOX_Title'>نام فارسی</span>
         </div>
@@ -58,6 +60,131 @@ function SearchInformationBox() {
             </div>
 
         </div>
+
+        <div className='SIBOX_OpenCloseContainerExact' style={{display: show? "flex" :"none"}}>
+
+
+            <div className='SIBOX_InformationContainer3'>
+                <div className='SIBOX_InformationContainer3ItemContainer'>
+                    <span className='SIBOX_InformationContainer3Itemtitle'>دقیقا شامل</span>
+                    <div className='SIBOX_InformationContainer3ItemInformation'>
+                        <span className='SIBOX_InformationContainer3ItemInformationNumber'>12</span>
+                        <span className='SIBOX_InformationContainer3ItemInformationWord'>کلمه</span>
+                    </div>
+                </div>
+
+                <div className='SIBOX_InformationContainer3ItemContainer'>
+                    <span className='SIBOX_InformationContainer3Itemtitle'>شامل هر کدام از</span>
+                    <div className='SIBOX_InformationContainer3ItemInformation'>
+                        <span className='SIBOX_InformationContainer3ItemInformationNumber'>0</span>
+                        <span className='SIBOX_InformationContainer3ItemInformationWord'>کلمه</span>
+                    </div>
+                </div>
+
+                <div className='SIBOX_InformationContainer3ItemContainer'>
+                    <span className='SIBOX_InformationContainer3Itemtitle'>هیچ کدام از</span>
+                    <div className='SIBOX_InformationContainer3ItemInformation'>
+                        <span className='SIBOX_InformationContainer3ItemInformationNumber'>12</span>
+                        <span className='SIBOX_InformationContainer3ItemInformationWord'>کلمه</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className='SIBOX_InformationContainer1 SIBOX_InformationContainer1Margin'>
+                <span className='SIBOX_InformationContainer1Text'>محدودسازی جستجو بر اساس تصویر</span>
+                <div className='SIBOX_InformationContainer1Button'>
+                    <span>فعال</span>
+                </div>
+            </div>
+            <div className='SIBOX_InformationContainer1'>
+                <span className='SIBOX_InformationContainer1Text'>فیلتر احساسات </span>
+                <div className='SIBOX_InformationContainer1Button'>
+                    <span>مثبت</span>
+                </div>
+            </div>
+            
+
+            <div className='SIBOX_InformationContainer4'>
+                <span className='SIBOX_InformationContainer4Title'>فیلتر نوع رفتار کاربری :</span>
+                <div className='SIBOX_InformationContainer4Items'>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>امید</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>ناراحتی</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>دستوری</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>پرسشی</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>تعجب</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>اعتماد و اطمینان</span></div>
+                </div>
+            </div>
+
+
+            <div className='SIBOX_InformationContainer4'>
+                <span className='SIBOX_InformationContainer4Title'>فیلتر دسته بندی :</span>
+                <div className='SIBOX_InformationContainer4Items'>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>امید</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>ناراحتی</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>دستوری</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>پرسشی</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>تعجب</span></div>
+                    <div className='SIBOX_InformationContainer4Item'><span className='SIBOX_InformationContainer4ItemText'>اعتماد و اطمینان</span></div>
+                </div>
+            </div>
+
+            
+            <div className='SIBOX_InformationContainer3'>
+                <div className='SIBOX_InformationContainer3ItemContainer'>
+                    <span className='SIBOX_InformationContainer3Itemtitle'>دقیقا شامل</span>
+                    <div className='SIBOX_InformationContainer3ItemInformation'>
+                        <span className='SIBOX_InformationContainer3ItemInformationNumber'>12</span>
+                        <span className='SIBOX_InformationContainer3ItemInformationWord'>موجودیت</span>
+                    </div>
+                </div>
+
+                <div className='SIBOX_InformationContainer3ItemContainer'>
+                    <span className='SIBOX_InformationContainer3Itemtitle'>شامل هر کدام</span>
+                    <div className='SIBOX_InformationContainer3ItemInformation'>
+                        <span className='SIBOX_InformationContainer3ItemInformationNumber'>0</span>
+                        <span className='SIBOX_InformationContainer3ItemInformationWord'>موجودیت</span>
+                    </div>
+                </div>
+
+                <div className='SIBOX_InformationContainer3ItemContainer'>
+                    <span className='SIBOX_InformationContainer3Itemtitle'>هیچ کدام</span>
+                    <div className='SIBOX_InformationContainer3ItemInformation'>
+                        <span className='SIBOX_InformationContainer3ItemInformationNumber'>12</span>
+                        <span className='SIBOX_InformationContainer3ItemInformationWord'>موجودیت</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div className='SIBOX_OpenCloseContainer'>
+            <div className='SIBOX_OpenCloseTextContainer'>
+                <span className='SIBOX_OpenCloseText'>نمایش محتوا</span>
+            </div>  
+            <div className='SIBOX_OpenCloseIconContainer' onClick={() => setShow(!show)}>
+                {
+                    show ?
+                    <div className='SIBOX_OpenCloseIcon'>
+                        <FaChevronUp/>
+                    </div>
+              
+                    :
+                    <div className='SIBOX_OpenCloseIcon'>
+                        <FaChevronDown/>
+                    </div>
+                }
+                
+            </div>
+        </div>
+
+
+ 
     </div>
   )
 }
