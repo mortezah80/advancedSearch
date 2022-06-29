@@ -1,0 +1,27 @@
+.customSelectCatSelect{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.137);
+    border-radius: 5px;
+    border-radius: 6px;
+    height: 100%;
+}
+.DP_SelectPlaceHolder{
+    font-size: 10px;
+}
+@media screen and (max-width:700px) {
+    .selectUCatSearchS{
+        height: 30px !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .selectUCatSearchS{
+        height: 25px !important;
+    }
+}@media screen and (max-width:500px) {
+    .selectUCatSearchS{
+        height: 22px !important;
+    }
+}
+.mySelect__value-container{
+    height: 20px;
+   }
+   

@@ -1,0 +1,32 @@
+.toggleBtnRow{
+    background-color: #E6E9F0;
+    width: 274px;
+    height: 29px;
+    border-radius: 6px;
+    margin-right: 5px;
+    display: flex;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemToggleAdc{
+    display: flex;
+    align-items: center;
+    padding:3px 5px;
+    color: #626276;
+    font-weight: bold;
+    border-radius: 6px;
+    justify-content: center;
+    font-size: 9px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.itemToggleAdc:hover{
+    background-color: #8f8fe984;
+}
+.itemToggleAdcActive{
+    transition: all 0.3s ease-in;
+    color: white;
+    background: linear-gradient(180deg, rgba(2,122,237,1) 0%, rgba(4,101,210,1) 100%);
+}

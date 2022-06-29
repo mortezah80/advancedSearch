@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+	position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +12,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 700;
+	src: url('Fonts/woff/IRANSansXFaNum-Bold.woff') format('woff'),   
+	url('Fonts/woff2/IRANSansXFaNum-Bold.woff2') format('woff2');	 
+}
+
+	@font-face {
+		font-family: IRANSansX;
+		font-style: normal;
+		font-weight: 400;
+		src: url('Fonts/woff/IRANSansXFaNum-Regular.woff') format('woff'),   
+		url('Fonts/woff2/IRANSansXFaNum-Regular.woff2') format('woff2');	
+	}
+
+	@font-face {
+		font-family: IRANYekan;
+		font-style: normal;
+		font-weight: 400;
+		src: url('Fonts/woff_Yekan/iranyekanwebregularfanum.woff') format('woff'),
+		url('Fonts/woff2_Yekan/IRANYekanWebRegular.woff2') format('woff2');
+	  }
+
+	  @font-face {
+		font-family: KalamehWeb;
+		font-style: normal;
+		font-weight: 400;
+		src: url('Fonts/woff_kalameh/KalamehWebFaNum-Regular.woff') format('woff'),
+		url('Fonts/woff2_kalameh/KalamehWebFaNum-Regular.woff2') format('woff2');
+	  }
+	  
+
+	  
+
+	  
+	  input {
+		font-family:IRANYekan !important ;
+		font-size: 11px !important;
+	  }
+	  textarea {
+		font-family:IRANYekan !important ;
+		font-size: 11px !important;
+	  }	

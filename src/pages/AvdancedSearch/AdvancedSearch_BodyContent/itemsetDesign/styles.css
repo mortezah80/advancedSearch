@@ -1,0 +1,32 @@
+.searchBarItemsAdc{
+    width: 340px;
+    background-color: #E6E9F0;
+    border-radius: 7px;
+    height: 29px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: #7B7C8D;
+}
+.searchBarItemsAdc input {
+    background-color: transparent;
+    border: none;
+    color: #4f4f67;
+    outline: none;
+    height: 96%;
+    width: 97%;
+}
+
+.searchBarItemsAdc input::placeholder{
+    color: #7B7C8D;
+}
+.searchIconBoxAdc{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 5px;
+}
