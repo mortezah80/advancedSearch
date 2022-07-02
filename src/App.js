@@ -6,7 +6,6 @@ import SideBarAdc from './pages/AvdancedSearch/SiderbarAdvancedSearch/SideBarAdc
 function App() {
   return (
     <div className="App">
-        <SideBarAdc/>
         <AvdancedSearch/>
     </div>
   );

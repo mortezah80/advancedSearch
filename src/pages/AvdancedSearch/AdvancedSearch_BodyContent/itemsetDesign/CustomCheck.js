@@ -51,8 +51,52 @@ const AntSwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
+const AntSwitchSmall = styled(Switch)(({ theme }) => ({
+  width: 30,
+  height: 20,
+  padding: "0px 0px",
+  borderRadius:7,
+  display: 'flex',
+  justifyContent:'center',
+  alignItems:'center',
+  '&:active': {
+    '& .MuiSwitch-thumb': {
+      width: 10,
+    },
+    '& .MuiSwitch-switchBase.Mui-checked': {
+      transform: 'translateX(10px)',
+    },
+  },
+  '& .MuiSwitch-switchBase': {
+    padding:3,
+    '&.Mui-checked': {
+      transform: 'translateX(12px)',
+      color: '#fff',
+      '& + .MuiSwitch-track': {
+        opacity: 1,
+        backgroundColor: theme.palette.mode === 'dark' ? '#177ddc' : '#1890ff',
+      },
+    },
+  },
+  '& .MuiSwitch-thumb': {
+    boxShadow: '0 2px 4px 0 rgb(0 35 11 / 20%)',
+    width: 14,
+    height: 14,
+    borderRadius: 6,
+    transition: theme.transitions.create(['width'], {
+      duration: 80,
+    }),
+  },
+  '& .MuiSwitch-track': {
+    borderRadius: 10 / 2,
+    opacity: 1,
+    backgroundColor:
+      theme.palette.mode === 'dark' ? 'rgba(255,255,255,.35)' : 'rgba(0,0,0,.25)',
+    boxSizing: 'border-box',
+  },
+}));
 export default function CustomizedSwitches() {
   return (
-        <AntSwitch defaultChecked inputProps={{ 'aria-label': 'ant design' }} />
+        <AntSwitchSmall  defaultChecked inputProps={{ 'aria-label': 'ant design' }} />
   );
 }

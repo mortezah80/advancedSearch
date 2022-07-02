@@ -1,0 +1,1180 @@
+@media screen and (max-width : 1000px) {
+    .AvdancedSearch {
+        width: 100%;
+        height: 100%;
+    }
+    .AvdancedSearchTop1{
+        width: 100%;
+    }
+    .adcNavBar{
+        height: 60px;
+        width: 100%;
+    }
+    .AvdancedSearchTop1 {
+        width: 100%;
+        height: 96px;
+    }
+    .notificationBarAdc{
+        height: 100%;
+    }
+    .fingerprintBoxAdc{
+        width: 53px;
+        height: 100%;
+    }
+    .notifIconsetAdc{   
+        width: 70px;
+        height: 100%;
+        flex: 0.3;
+        border-left: 1px #81a3be52 solid;
+    }
+    .shapesIconsAdcItem{
+        width: 170px !important;
+    }
+    .notifContainerTittAdc{
+        top: 17px;
+        right: 25px;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .notifIconClasStyle{
+        font-size: 23px;
+    }
+    .iconSetsomeAdc{
+        width: 100px;
+    }
+    .searchIconNavAdc{
+        left: 10px;
+        font-size: 18px;
+        top:0px;
+        bottom: 0px;
+    }
+    .profileboxAdc{
+        height: 65%;    
+        border-radius: 5px;
+        width: 160px;
+        margin-left: 20px;
+        padding: 6px;
+    }
+    .avatarprofileAdc{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .avatarprofileAdc > div{
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+    }
+    .infoprofileAdc h6{
+        margin: 0px;
+        font-size: 10px;
+    }
+    .infoprofileAdc span{
+        font-size: 8px;
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+    .tagprofileAdc{
+        font-size: 12px;
+        border-radius: 30%;
+    }
+    .divSearchbarNavAdc{
+        width: 350px;
+        height: 27px;
+        border-radius: 6px;
+    }
+    .divSearchbarNavAdc input{
+        width: 95%;
+        height: 98%;
+    }
+    .tabsHeaderAdc{
+        width: 100%;
+        height: 36px;
+    }
+    
+    .AvdancedSearchTop2 {
+        width: 100%;
+        height: 170px;
+    }
+    .settingIconAdcCo{
+        width: 54px;
+        height: 100%;   
+        border-left: 2.5px #0392F8 solid;  
+    }
+    .settingIconAdc{
+        width: 46px;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .settingIconAdc > div{
+        height: 30px;
+        border-radius: 50%;
+        width: 30px;
+    }
+    .tabitemAdc{
+        width: 110px;
+        height: 80%;
+        margin: 0 2px;
+        border-bottom: 1.3px solid white;
+    }
+    .tabitemAdc h5{
+        margin: 0px;
+        margin-bottom: 2px;
+        font-size: 12px;
+        word-spacing: 1px;
+        color: #3A4366;
+    }
+    .selectTabsAdc{
+        width: 110px;
+        font-size: 10px;
+       height: 90%;
+       background-color: #2C3554;
+        margin:0 3px;
+        font-size: 17px;
+    }
+    .selectTabsAdc span{
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+}
+@media screen and (max-width : 850px) {
+    .AvdancedSearch {
+        width: 100%;
+        height: 100%;
+    }
+    .AvdancedSearchTop1{
+        width: 100%;
+    }
+    .adcNavBar{
+        height: 55px;
+        width: 100%;
+    }
+    .AvdancedSearchTop1 {
+        width: 100%;
+        height: 91px;
+    }
+    .notificationBarAdc{
+        height: 100%;
+    }
+    .fingerprintBoxAdc{
+        width: 50px;
+        height: 100%;
+    }
+    .notifIconsetAdc{   
+        width: 50px;
+        height: 100%;
+        flex: 0.3;
+        border-left: 1px #81a3be52 solid;
+    }
+    .shapesIconsAdcItem{
+        width: 170px !important;
+    }
+    .notifContainerTittAdc{
+        top: 12px;
+        right: 20px;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .notifIconClasStyle{
+        font-size: 23px;
+    }
+    .iconSetsomeAdc{
+        width: 100px;
+    }
+    .searchIconNavAdc{
+        left: 10px;
+        font-size: 18px;
+        top:0px;
+        bottom: 0px;
+    }
+    .profileboxAdc{
+        height: 65%;    
+        border-radius: 5px;
+        width: 120px;
+        margin-left: 20px;
+        padding: 6px;
+    }
+    .avatarprofileAdc{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .avatarprofileAdc > div{
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+    }
+    .infoprofileAdc h6{
+        margin: 0px;
+        font-size: 10px;
+    }
+    .infoprofileAdc span{
+        font-size: 8px;
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+    .tagprofileAdc{
+        font-size: 12px;
+        border-radius: 30%;
+    }
+    .divSearchbarNavAdc{
+        width: 280px;
+        height: 25px;
+        border-radius: 5px;
+    }
+    .divSearchbarNavAdc input{
+        width: 95%;
+        height: 98%;
+    }
+    .tabsHeaderAdc{
+        width: 100%;
+        height: 32px;
+    }
+    
+    .AvdancedSearchTop2 {
+        width: 100%;
+        height: 170px;
+    }
+    .settingIconAdcCo{
+        width: 50px;
+        height: 100%;   
+        border-left: 2.5px #0392F8 solid;  
+    }
+    .settingIconAdc{
+        width: 40px !important;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .settingIconAdc > div{
+        height: 30px;
+        border-radius: 50%;
+        width: 30px;
+    }
+    .tabitemAdc{
+        width: 90px;
+        height: 94%;
+        margin: 0 3px;
+        border-bottom: 1.3px solid white;
+    }
+    .tabitemAdc h5{
+        margin: 0px;
+        margin-bottom: 2px;
+        font-size: 10px;
+        word-spacing: 1px;
+        color: #3A4366;
+    }
+    .selectTabsAdc{
+        width: 90px;
+        font-size: 10px;
+       height: 90%;
+       background-color: #2C3554;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 17px;
+    }
+    .selectTabsAdc span{
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width : 850px) {
+    .AvdancedSearch {
+        width: 100%;
+        height: 100%;
+    }
+    .AvdancedSearchTop1{
+        width: 100%;
+    }
+    .adcNavBar{
+        height: 55px;
+        width: 100%;
+    }
+    .AvdancedSearchTop1 {
+        width: 100%;
+        height: 91px;
+    }
+    .notificationBarAdc{
+        height: 100%;
+    }
+    .fingerprintBoxAdc{
+        width: 50px;
+        height: 100%;
+    }
+    .notifIconsetAdc{   
+        width: 50px;
+        height: 100%;
+        flex: 0.3;
+        border-left: 1px #81a3be52 solid;
+    }
+    .shapesIconsAdcItem{
+        width: 170px !important;
+    }
+    .notifContainerTittAdc{
+        top: 12px;
+        right: 20px;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .notifIconClasStyle{
+        font-size: 23px;
+    }
+    .iconSetsomeAdc{
+        width: 100px;
+    }
+    .searchIconNavAdc{
+        left: 10px;
+        font-size: 18px;
+        top:0px;
+        bottom: 0px;
+    }
+    .profileboxAdc{
+        height: 65%;    
+        border-radius: 5px;
+        width: 120px;
+        margin-left: 20px;
+        padding: 6px;
+    }
+    .avatarprofileAdc{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .avatarprofileAdc > div{
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+    }
+    .infoprofileAdc h6{
+        margin: 0px;
+        font-size: 10px;
+    }
+    .infoprofileAdc span{
+        font-size: 8px;
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+    .tagprofileAdc{
+        font-size: 12px;
+        border-radius: 30%;
+    }
+    .divSearchbarNavAdc{
+        width: 280px;
+        height: 25px;
+        border-radius: 5px;
+    }
+    .divSearchbarNavAdc input{
+        width: 95%;
+        height: 98%;
+    }
+    .tabsHeaderAdc{
+        width: 100%;
+        height: 32px;
+    }
+    
+    .AvdancedSearchTop2 {
+        width: 100%;
+        height: 170px;
+    }
+    .settingIconAdcCo{
+        width: 51px;
+        height: 100%;   
+        border-left: 2.5px #0392F8 solid;  
+    }
+    .settingIconAdc{
+        width: 50px;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .settingIconAdc > div{
+        height: 30px;
+        border-radius: 50%;
+        width: 30px;
+    }
+    .tabitemAdc{
+        width: 90px;
+        height: 94%;
+        margin: 0 3px;
+        border-bottom: 1.3px solid white;
+    }
+    .tabitemAdc h5{
+        margin: 0px;
+        margin-bottom: 2px;
+        font-size: 10px;
+        word-spacing: 1px;
+        color: #3A4366;
+    }
+    .selectTabsAdc{
+        width: 90px;
+        font-size: 10px;
+       height: 90%;
+       background-color: #2C3554;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 17px;
+    }
+    .selectTabsAdc span{
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+    
+}   
+@media screen and (max-width : 750px) {
+    .AvdancedSearch {
+        width: 100%;
+        height: 100%;
+    }
+    .AvdancedSearchTop1{
+        width: 100%;
+    }
+    .adcNavBar{
+        height: 47px;
+        width: 100%;
+    }
+    .AvdancedSearchTop1 {
+        width: 100%;
+        height: 83px;
+    }
+    .notificationBarAdc{
+        height: 100%;
+    }
+    .fingerprintBoxAdc{
+        width: 50px;
+        height: 100%;
+    }
+    .notifIconsetAdc{   
+        width: 40px;
+        height: 100%;
+        flex: 0.3;
+        border-left: 1px #81a3be52 solid;
+    }
+    .shapesIconsAdcItem{
+        width: 170px !important;
+    }
+    .notifContainerTittAdc{
+        top: 12px;
+        right: 15px;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .notifIconClasStyle{
+        font-size: 23px;
+    }
+    .iconSetsomeAdc{
+        width: 100px;
+    }
+    .searchIconNavAdc{
+        left: 8px;
+        font-size: 15px;
+        top:0px;
+        bottom: 0px;
+    }
+    .profileboxAdc{
+        height: 65%;    
+        border-radius: 5px;
+        width: 110px;
+        margin-left: 20px;
+        padding: 6px;
+    }
+    .avatarprofileAdc{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    .avatarprofileAdc > div{
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+    }
+    .infoprofileAdc h6{
+        margin: 0px;
+        font-size: 9px;
+    }
+    .infoprofileAdc span{
+        font-size: 7px;
+        margin-top: 1px;
+        margin-right: 1px;
+    }
+    .tagprofileAdc{
+        font-size: 10px;
+        border-radius: 30%;
+    }
+    .divSearchbarNavAdc{
+        width: 200px;
+        height: 23px;
+        border-radius: 5px;
+    }
+    .divSearchbarNavAdc input{
+        width: 95%;
+        height: 98%;
+    }
+    .divSearchbarNavAdc input::placeholder{
+        font-size: 9px;
+    }
+    .tabsHeaderAdc{
+        width: 100%;
+        height: 32px;
+    }
+    
+    .AvdancedSearchTop2 {
+        width: 100%;
+        height: 170px;
+    }
+    .settingIconAdcCo{
+        width: 51px;
+        height: 100%;   
+        border-left: 2.5px #0392F8 solid;  
+    }
+    .settingIconAdc{
+        width: 50px;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .settingIconAdc > div{
+        height: 30px;
+        border-radius: 50%;
+        width: 30px;
+    }
+    .tabitemAdc{
+        width: 80px;
+        height: 98%;
+        margin: 0 2px;
+        border-bottom: 1.3px solid white;
+    }
+    .tabitemAdc h5{
+        margin: 0px;
+        margin-bottom: 2px;
+        font-size: 9px;
+        word-spacing: 1px;
+        color: #3A4366;
+    }
+    .selectTabsAdc{
+        width: 80px;
+        font-size: 9px;
+       height: 90%;
+       background-color: #2C3554;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 17px;
+    }
+    .selectTabsAdc span{
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+    
+}   
+
+@media screen and (max-width : 600px) {
+    .AvdancedSearch {
+        width: 100%;
+        height: 100%;
+    }
+    .AvdancedSearchTop1{
+        width: 100%;
+    }
+    .adcNavBar{
+        height: 37px;
+        width: 100%;
+    }
+    .AvdancedSearchTop1 {
+        width: 100%;
+        height: 65px;
+    }
+    .notificationBarAdc{
+        height: 100%;
+    }
+    .fingerprintBoxAdc{
+        width: 40px;
+        height: 100%;
+    }
+    .notifIconsetAdc{   
+        width: 30px;
+        height: 100%;
+        flex: 0.3;
+        border-left: 1px #81a3be52 solid;
+    }
+    .shapesIconsAdcItem{
+        width: 170px !important;
+    }
+    .notifContainerTittAdc{
+        top: 5px;
+        right: 13px;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .notifIconClasStyle{
+        font-size: 20px;
+    }
+    .iconSetsomeAdc{
+        width: 100px;
+    }
+    .searchIconNavAdc{
+        left: 8px;
+        font-size: 15px;
+        top:0px;
+        bottom: 0px;
+    }
+    .profileboxAdc{
+        height: 65%;    
+        border-radius: 5px;
+        width: 95px;
+        margin-left: 10px;
+        padding: 6px;
+    }
+    .avatarprofileAdc{
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+    }
+    .avatarprofileAdc > div{
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+    }
+    .infoprofileAdc h6{
+        margin: 0px;
+        font-size: 7px;
+    }
+    .infoprofileAdc span{
+        font-size: 5px;
+        margin-top: 1px;
+        margin-right: 1px;
+    }
+    .tagprofileAdc{
+        font-size:9px;
+        border-radius: 30%;
+    }
+    .divSearchbarNavAdc{
+        width: 200px;
+        height: 23px;
+        border-radius: 5px;
+    }
+    .divSearchbarNavAdc input{
+        width: 95%;
+        height: 98%;
+    }
+    .divSearchbarNavAdc input::placeholder{
+        font-size: 9px;
+    }
+    .tabsHeaderAdc{
+        width: 100%;
+        height: 25px;
+    }
+    
+    .AvdancedSearchTop2 {
+        width: 100%;
+        height: 170px;
+    }
+    .settingIconAdcCo{
+        width: 41px;
+        height: 100%;   
+        border-left: 2.5px #0392F8 solid;  
+    }
+    .settingIconAdc{
+        width: 31px !important;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .settingIconAdc > div{
+        height: 30px !important;
+        border-radius: 50%;
+        width: 30px;
+    }
+    .tabitemAdc{
+        width: 65px;
+        height: 98%;
+        margin: 0 2px;
+        border-bottom: 1.3px solid white;
+    }
+    .tabitemAdc h5{
+        margin: 0px;
+        margin-bottom: 2px;
+        font-size: 9px;
+        word-spacing: 1px;
+        color: #3A4366;
+    }
+    .selectTabsAdc{
+        width: 70px;
+        font-size: 9px;
+       height: 90%;
+       background-color: #2C3554;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 17px;
+    }
+    .selectTabsAdc span{
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+    
+}   
+
+@media screen and (max-width : 500px) {
+    .AvdancedSearch {
+        width: 100%;
+        height: 100%;
+    }
+    .AvdancedSearchTop1{
+        width: 100%;
+    }
+    .adcNavBar{
+        height: 37px;
+        width: 100%;
+    }
+    .AvdancedSearchTop1 {
+        width: 100%;
+        height: 67px;
+    }
+    .notificationBarAdc{
+        height: 100%;
+    }
+    .fingerprintBoxAdc{
+        width: 37px;
+        height: 100%;
+    }
+    .notifIconsetAdc{   
+        width: 30px;
+        height: 100%;
+        flex: 0.3;
+        border-left: 1px #81a3be52 solid;
+    }
+    .shapesIconsAdcItem{
+        width: 170px !important;
+    }
+    .notifContainerTittAdc{
+        top: 8px;
+        right: 10px;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        font-weight: bold;
+        font-size: 7px;
+    }
+    .notifIconClasStyle{
+        font-size: 20px;
+    }
+    .iconSetsomeAdc{
+        width: 100px;
+    }
+    .searchIconNavAdc{
+        left: 8px;
+        font-size: 12px;
+        top:0px;
+        bottom: 0px;
+    }
+    .profileboxAdc{
+        height: 65%;    
+        border-radius: 3px;
+        width: 85px;
+        margin-left: 7px;
+        padding: 4px;
+    }
+    .avatarprofileAdc{
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+    }
+    .avatarprofileAdc > div{
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+    }
+    .infoprofileAdc h6{
+        margin: 0px;
+        font-size: 7px;
+    }
+    .infoprofileAdc span{
+        font-size: 5px;
+        margin-top: 1px;
+        margin-right: 1px;
+    }
+    .tagprofileAdc{
+        font-size:9px;
+        border-radius: 30%;
+    }
+    .divSearchbarNavAdc{
+        width: 130px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    .divSearchbarNavAdc input{
+        width: 95%;
+        height: 98%;
+    }
+    .divSearchbarNavAdc input::placeholder{
+        font-size:6px;
+    }
+    .tabsHeaderAdc{
+        width: 100%;
+        height: 30px;
+    }
+    
+    .AvdancedSearchTop2 {
+        width: 100%;
+        height: 170px;
+    }
+    .settingIconAdcCo{
+        width: 37px;
+        height: 100%;   
+        border-left: 2.5px #0392F8 solid;  
+    }
+    .settingIconAdc{
+        width: 34px;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .settingIconAdc > div{
+        height: 20px;
+        border-radius: 50%;
+        width: 30px;
+    }
+    .tabitemAdc{
+        width: 45px;
+        height: 90%;
+        margin: 0 2px;
+        border-bottom: 1.3px solid white;
+    }
+    .tabitemAdc h5{
+        margin: 0px;
+        margin-bottom: 2px;
+        font-size: 7px;
+        word-spacing: 1px;
+        color: #3A4366;
+    }
+    .selectTabsAdc{
+        width: 70px;
+        font-size: 9px;
+       height: 90%;
+       background-color: #2C3554;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 17px;
+    }
+    .selectTabsAdc span{
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+    
+}   
+
+@media screen and (max-width : 450px) {
+    .AvdancedSearch {
+        width: 100%;
+        height: 100%;
+    }
+    .AvdancedSearchTop1{
+        width: 100%;
+    }
+    .adcNavBar{
+        height: 37px;
+        width: 100%;
+    }
+    .AvdancedSearchTop1 {
+        width: 100%;
+        height: 60px;
+    }
+    .notificationBarAdc{
+        height: 100%;
+    }
+    .fingerprintBoxAdc{
+        width: 31px;
+        height: 100%;
+    }
+    .notifIconsetAdc{   
+        width: 30px;
+        height: 100%;
+        flex: 0.3;
+        border-left: 1px #81a3be52 solid;
+    }
+    .shapesIconsAdcItem{
+        width: 170px !important;
+    }
+    .notifContainerTittAdc{
+        top: 8px;
+        right: 10px;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        font-weight: bold;
+        font-size: 7px;
+    }
+    .notifIconClasStyle{
+        font-size: 20px;
+    }
+    .iconSetsomeAdc{
+        width: 100px;
+    }
+    .searchIconNavAdc{
+        left: 8px;
+        font-size: 12px;
+        top:0px;
+        bottom: 0px;
+    }
+    .profileboxAdc{
+        height: 65%;    
+        border-radius: 3px;
+        width: 85px;
+        margin-left: 7px;
+        padding: 4px;
+    }
+    .avatarprofileAdc{
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+    }
+    .avatarprofileAdc > div{
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+    }
+    .infoprofileAdc h6{
+        margin: 0px;
+        font-size: 7px;
+    }
+    .infoprofileAdc span{
+        font-size: 5px;
+        margin-top: 1px;
+        margin-right: 1px;
+    }
+    .tagprofileAdc{
+        font-size:9px;
+        border-radius: 30%;
+    }
+    .divSearchbarNavAdc{
+        width: 130px;
+        height: 20px;
+        margin-right: 80px;
+        border-radius:3px;
+    }
+    .divSearchbarNavAdc input{
+        width: 95%;
+        height: 98%;
+    }
+    .divSearchbarNavAdc input::placeholder{
+        font-size:6px;
+    }
+    .tabsHeaderAdc{
+        width: 100%;
+        height: 22px;
+    }
+    
+    .AvdancedSearchTop2 {
+        width: 100%;
+        height: 170px;
+    }
+    .settingIconAdcCo{
+        width: 30px !important; 
+        height: 100%;   
+        border-left: 2.5px #0392F8 solid;  
+    }
+    .settingIconAdc{
+        width: 27px !important;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .settingIconAdc > div{
+        height: 20px;
+        border-radius: 50%;
+        width: 30px;
+    }
+    .tabitemAdc{
+        width: 40px;
+        height: 90%;
+        margin: 0 2px;
+        border-bottom: 1.3px solid white;
+    }
+    .tabitemAdc h5{
+        margin: 0px;
+        margin-bottom: 2px;
+        font-size: 5px;
+        word-spacing: 1px;
+        color: #3A4366;
+    }
+    .selectTabsAdc{
+        width: 70px;
+        font-size: 9px;
+       height: 90%;
+       background-color: #2C3554;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 17px;
+    }
+    .selectTabsAdc span{
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+    
+}   
+
+@media screen and (max-width : 400px) {
+    .AvdancedSearch {
+        width: 100%;
+        height: 100%;
+    }
+    .AvdancedSearchTop1{
+        width: 100%;
+    }
+    .adcNavBar{
+        height: 37px;
+        width: 100%;
+    }
+    .AvdancedSearchTop1 {
+        width: 100%;
+        height: 60px;
+    }
+    .notificationBarAdc{
+        height: 100%;
+    }
+    .fingerprintBoxAdc{
+        width: 31px;
+        height: 100%;
+    }
+    .notifIconsetAdc{   
+        width: 30px;
+        height: 100%;
+        flex: 0.3;
+        border-left: 1px #81a3be52 solid;
+    }
+    .shapesIconsAdcItem{
+        width: 170px !important;
+    }
+    .notifContainerTittAdc{
+        top: 8px;
+        right: 10px;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        font-weight: bold;
+        font-size: 7px;
+    }
+    .notifIconClasStyle{
+        font-size: 20px;
+    }
+    .iconSetsomeAdc{
+        width: 100px;
+    }
+    .searchIconNavAdc{
+        left: 8px;
+        font-size: 12px;
+        top:0px;
+        bottom: 0px;
+    }
+    .profileboxAdc{
+        height: 65%;    
+        border-radius: 3px;
+        width: 75px;
+        margin-left: 4px;
+        padding: 4px;
+    }
+    .avatarprofileAdc{
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+    }
+    .avatarprofileAdc > div{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+    }
+    .infoprofileAdc h6{
+        margin: 0px;
+        font-size: 6px;
+    }
+    .infoprofileAdc span{
+        font-size: 4px;
+        margin-top: 1px;
+        margin-right: 1px;
+    }
+    .tagprofileAdc{
+        font-size:9px;
+        display: none;
+        border-radius: 30%;
+    }
+    .divSearchbarNavAdc{
+        width: 100px;
+        height: 20px;
+        margin-right: 60px;
+        border-radius:3px;
+    }
+    .divSearchbarNavAdc input{
+        width: 95%;
+        height: 98%;
+    }
+    .divSearchbarNavAdc input::placeholder{
+        font-size:6px;
+    }
+    .tabsHeaderAdc{
+        width: 100%;
+        height: 22px;
+    }
+    
+    .AvdancedSearchTop2 {
+        width: 100%;
+        height: 170px;
+    }
+    .settingIconAdcCo{
+        width: 37px;
+        height: 100%;   
+        border-left: 2.5px #0392F8 solid;  
+    }
+    .settingIconAdc{
+        width: 34px;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .settingIconAdc > div{
+        height: 20px;
+        border-radius: 50%;
+        width: 30px;
+    }
+    .tabitemAdc{
+        width: 40px;
+        height: 90%;
+        margin: 0 2px;
+        border-bottom: 1.3px solid white;
+    }
+    .tabitemAdc h5{
+        margin: 0px;
+        margin-bottom: 2px;
+        font-size: 5px;
+        word-spacing: 1px;
+        color: #3A4366;
+    }
+    .selectTabsAdc{
+        width: 70px;
+        font-size: 9px;
+       height: 90%;
+       background-color: #2C3554;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 17px;
+    }
+    .selectTabsAdc span{
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+    
+}   

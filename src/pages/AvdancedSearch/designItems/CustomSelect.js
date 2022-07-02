@@ -14,11 +14,11 @@ function CustomSelect(props) {
       "&:hover": {
         borderColor: state.isFocused ? "red" : "blue"
       }*/
-      minHeight:res500?'23px' : res600?'27px' : res700?'31px':'30px',
-      height:res500?'23px' :  res600?'27px' : res700?'31px':'31px',
+      minHeight:res500?'15px' : res600?'20px' : res700?'27px':'30px',
+      height:res500?'19px' :  res600?'20px' : res700?'28px':'31px',
       borderColor :"#2C3554",
       backgroundColor : '#2C3554',
-      width:'110px',
+      width:props.width,
       border:'none',
       "&:hover": {
         border:'none',
@@ -36,12 +36,12 @@ function CustomSelect(props) {
     singleValue: (provided) => ({
       ...provided,
       color: '#838AA4',
-      fontSize:res500?'8px' :res600?'9px' : res700?'10px':'10px',
+      fontSize:res500?'8px' :res600?'5px' : res700?'10px':'10px',
     }),
     valueContainer: (provided, state) => ({
       ...provided,
-      height: res500?'23px' :res600?'27px' :  res700?'33px':'32px',
-      padding: '0 6px'
+      height: res500?'19px' :res600?'20px' :  res700?'28px':'32px',
+      padding: '0 3px'
     }),
     input: (provided, state) => ({
       ...provided,
@@ -49,7 +49,7 @@ function CustomSelect(props) {
     }),
     indicatorsContainer: (provided, state) => ({
       ...provided,
-      height:res500?'23px' :res600?'27px' :  res700?'33px': '32px',
+      height:res500?'19px' :res600?'20px' :  res700?'28px': '32px',
     }),
     dropdownIndicator: base => ({
       ...base,
@@ -58,8 +58,9 @@ function CustomSelect(props) {
       "&:hover": {
         color: "#ffffffc8" 
       },
-      paddingTop: 2,
-      paddingBottom:2 ,
+      width : res700 ?0 :'',
+      paddingTop: 0,
+      paddingBottom:0 ,
     }),
     clearIndicator: (styles) => ({
       ...styles,
@@ -73,7 +74,7 @@ function CustomSelect(props) {
       border:'none',
       // kill the gap
       marginTop: 0,
-      fontSize:'12px',
+      fontSize:'9px',
       backgroundColor:'#3A4366'
     }),   
    

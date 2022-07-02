@@ -16,6 +16,10 @@
     .selectUCatSearchS{
         height: 25px !important;
     }
+    
+        .DP_SelectPlaceHolder{
+        font-size: 7px;
+        }
 }@media screen and (max-width:500px) {
     .selectUCatSearchS{
         height: 22px !important;

@@ -8,8 +8,8 @@ function SelectCo(props) {
   const customStyles = {
     control: (base, state) => ({
       ...base,    
-      minHeight:res500?'23px' : res600?'27px' : res700?'31px':'29px',
-      height:res500?'23px' :  res600?'27px' : res700?'31px':'20px',
+      minHeight:res500?'26px' : res600?'27px' : res700?'29px':'29px',
+      height:res500?'26px' :  res600?'27px' : res700?'29px':'20px',
       borderColor :"#E6E9F0",
       backgroundColor : '#E6E9F0',
       
@@ -36,7 +36,7 @@ function SelectCo(props) {
     valueContainer: (provided, state) => ({
       ...provided,
       width:props.width,
-      height: res500?'23px' :res600?'27px' :  res700?'33px':'29px',
+      height: res500?'26px' :res600?'27px' :  res700?'29px':'29px',
       padding: '0 6px'
     }),
     input: (provided, state) => ({
@@ -49,7 +49,7 @@ function SelectCo(props) {
       width:'30px',
       borderBottomLeftRadius:6,
       backgroundColor:'#E6E9F0',
-      height:res500?'23px' :res600?'27px' :  res700?'33px': '29px',
+      height:res500?'26px' :res600?'27px' :  res700?'29px': '29px',
     }),
     dropdownIndicator: base => ({
       ...base,

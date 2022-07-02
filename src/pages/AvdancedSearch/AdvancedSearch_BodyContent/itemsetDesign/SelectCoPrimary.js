@@ -8,8 +8,8 @@ function SelectCoPrimary(props) {
   const customStyles = {
     control: (base, state) => ({
       ...base,    
-      minHeight:res500?'23px' : res600?'27px' : res700?'31px':'29px',
-      height:res500?'23px' :  res600?'27px' : res700?'31px':'20px',
+      minHeight:res500?'26px' : res600?'27px' : res700?'29px':'29px',
+      height:res500?'26px' :  res600?'27px' : res700?'29px':'20px',
       borderColor :"#017CF0",
       backgroundColor : '#017CF0',
       
@@ -37,7 +37,7 @@ function SelectCoPrimary(props) {
     valueContainer: (provided, state) => ({
       ...provided,
       width:props.width,
-      height: res500?'23px' :res600?'27px' :  res700?'33px':'29px',
+      height: res500?'26px' :res600?'27px' :  res700?'29px':'29px',
       padding: '0 6px'
     }),
     input: (provided, state) => ({
@@ -47,10 +47,11 @@ function SelectCoPrimary(props) {
     indicatorsContainer: (provided, state) => ({
       ...provided,
       borderTopLeftRadius:6,
-      width:'30px',
+      width:res500  ? '30px':'30px',
       borderBottomLeftRadius:6,
+      fontSize : res500 ? '8px':'',
       backgroundColor:'#0465D0',
-      height:res500?'23px' :res600?'27px' :  res700?'33px': '29px',
+      height:res500?'26px' :res600?'27px' :  res700?'29px': '29px',
     }),
     dropdownIndicator: base => ({
       ...base,
@@ -87,7 +88,7 @@ function SelectCoPrimary(props) {
     classNamePrefix="select"
     isRtl={true}
     defaultValue={0}
-    placeholder={<div style={{fontSize:'10px',color:'white'}}>{props.placeholder}</div>}
+    placeholder={<div style={{fontSize:res500 ? '8px':'10px',color:'white'}}>{props.placeholder}</div>}
     isSearchable={true}
     name="color"
     theme={(theme) => ({

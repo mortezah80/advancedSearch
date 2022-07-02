@@ -4,18 +4,23 @@ import {IoIosNotifications,IoIosSettings} from 'react-icons/io'
 import {FaEnvelopeOpen} from 'react-icons/fa'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {MdExpandMore} from 'react-icons/md'
+import './AvdanceSearchRess.css'
 import AvdancedSearch_BodyContent from './AdvancedSearch_BodyContent/AvdancedSearch_BodyContent'
 import CustomSelect from './designItems/CustomSelect'
 import AvdancedSearch_BodyLists from './AvdancedSearch_BodyLists/AvdancedSearch_BodyLists'
 import LogoImg from '../../Logo.png'
 
 import Drawer from '@mui/material/Drawer';
+import SideBarAdc from './SiderbarAdvancedSearch/SideBarAdc'
+import { useMediaQuery } from 'react-responsive'
 
 function AvdancedSearch() {
     
     const [toggleList , setToggleList] = useState(1)
 
 
+    const res750= useMediaQuery({query :'(max-width : 750px)'});
+    const res500= useMediaQuery({query :'(max-width : 500px)'});
     const handleDrawer = () => {
         setDP_DrawerB (true)
     }
@@ -24,7 +29,8 @@ function AvdancedSearch() {
   const [DP_DrawerB,setDP_DrawerB] = useState(false)
   const [LHActiveButton , setLHActiveButton] = useState(1)
   return (
-    <div className='AvdancedSearch'>   
+    <div className='AvdancedSearch'> 
+        <SideBarAdc/>
         <header className='AvdancedSearchTop1'>
             <nav className='adcNavBar'>
               <div className='notificationBarAdc'>
@@ -34,7 +40,7 @@ function AvdancedSearch() {
                   <IoIosNotifications className="notifIconClasStyle"/>
                 </div>
                 <div className='notifIconsetAdc'>
-                  <FaEnvelopeOpen className="notifIconClasStyle" style={{"fontSize":'17px'}}/>
+                  <FaEnvelopeOpen className="notifIconClasStyle" style={{"fontSize":res750 ? '14px':'17px'}}/>
                 </div>
                 <div className='notifIconsetAdc'>
                   <div className='shapesIconsAdcItem'></div>
@@ -90,7 +96,7 @@ function AvdancedSearch() {
                     <CustomSelect   
                     options={[{value:0,label:'موضوع'},{value:1,label:'سیاسی'},{value:1,label:'ورزشی'},{value:1,label:'اجتماعی'},{value:1,label:'فرهنگی'}]} 
                     placeholder={"انتخاب کنید..."} 
-                    width={"120"}/>
+                    width={res750 ?  '100': "120"}/>
                 </div>
               </div>
             </div>
@@ -238,7 +244,7 @@ function AvdancedSearch() {
                         </div>
                     </div>
                 </div>
-                <div className='ASB_BottomRightContent'>
+                <div className=' '>
                     <AvdancedSearch_BodyLists/>
                 </div>
                 

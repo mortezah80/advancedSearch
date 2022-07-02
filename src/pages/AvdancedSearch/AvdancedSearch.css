@@ -9,11 +9,9 @@
 .AvdancedSearch::-webkit-scrollbar {
     display: none;
   }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
   .AvdancedSearch {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
   }
 .AvdancedSearchTop1{
     width: 100%;
@@ -42,9 +40,8 @@
     width: 67px;
     height: 100%;
     background-color: #1A1E37;
-
 }
-.notifIconsetAdc{
+.notifIconsetAdc{   
     width: 90px;
     height: 100%;
     display: flex;
@@ -53,6 +50,9 @@
     position: relative;
     border-left: 1px #81a3be52 solid;
     align-items: center;
+}
+.shapesIconsAdcItem{
+    width: 170px !important;
 }
 .notifContainerTittAdc{
     position: absolute;
@@ -82,7 +82,7 @@
     right: 0px;
     justify-content: center;
     align-items: center;
-}
+}   
 .searchIconNavAdc{
     display: flex;
     left: 10px;
@@ -102,7 +102,7 @@
     flex-direction: column;
 }
 .profileboxAdc{
-    height: 65%;
+    height: 65%;    
     border-radius: 5px;
     width: 170px;
     background-color: #081825;
@@ -232,6 +232,7 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
     height: 100%;
     display: flex;
     align-items: center;
+
 }
 .tabitemAdc{
     box-sizing: border-box;

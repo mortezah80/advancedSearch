@@ -2,20 +2,34 @@
     background-color: #181D37;
     width: 250px;
     z-index: 200;
+    overflow: scroll;
     position: absolute;
     top: 0px;
     right: 0px; 
-    height: 100vh;
+    height: 1000px;
     box-sizing: border-box;
-    padding : 10px 20px;
+    padding : 10px 17px;
     color: white;
+    padding-top: 19px;
+}
+.closeAnimation{
+  animation-duration: 3s;
+  animation-name: closepanel;
+}
+.sidebarAdcContainer::-webkit-scrollbar {
+    display: none;
+}
+.sidebarAdcContainer {
+-ms-overflow-style: none;
+scrollbar-width: none; 
 }
 .accardionContainerSidebarAdc{
     margin: 20px 0px;
 }             
 .sidebarTitleAdc{
     align-items: center;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-right: -2px;
     width: 100%;
     display: flex;
     justify-content: flex-start;   
@@ -28,7 +42,7 @@
     font-weight: bold;
     display: flex;
     margin:0px 10px;
-    
+    white-space: nowrap;
     text-align: right;
     justify-content: center;
     align-items: center;
@@ -57,7 +71,7 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
 .sideBarCloseBtnAdc{
     font-size: 22px;
     position: absolute;
-    top: 27px;
+    top: 30px;
     left: 15px;
 }
 .settingBtnSideBarAdc{
@@ -100,21 +114,23 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
 .chanseRowAdc{
     background-color: #363861;
     box-sizing: border-box;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+   min-width: 210px !important;
 }
 .changeCircleItemAdc{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    width: 30px;
 }
 .chainCircleActivePrimary{
     background-color: #0A6FD7 !important;
@@ -123,9 +139,10 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
 }
 .tagSelecthashAdcSideBar{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .changeCircleItemAdc span { 
-    font-size: 11px;
+    font-size: 10px;
     margin-top: 2px;
 }
 .circleLinkItonAdcsideBar{
@@ -133,8 +150,12 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
     justify-content: center;
     align-items: center;
     background-color: #2B2E4D;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
     border-radius: 50%;
 
+}
+.backgroundSpecialStyleAcdAcc{
+    background-color:  #3D39CC !important;
 }
