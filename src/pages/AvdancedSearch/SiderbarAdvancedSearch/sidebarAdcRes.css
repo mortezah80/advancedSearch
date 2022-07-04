@@ -563,6 +563,7 @@
         max-height: 0px;
         justify-content: center;
         overflow: hidden;
+        margin-bottom: -1px;
         box-sizing: border-box;
         padding: 14px 0px;
     

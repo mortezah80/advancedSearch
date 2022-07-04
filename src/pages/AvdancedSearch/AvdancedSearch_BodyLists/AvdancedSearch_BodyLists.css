@@ -1,6 +1,8 @@
 .AvdancedSearch_BodyLists {
     direction: ltr;
     height: 100%;
+    z-index: 1;
+    position: relative;
     background-color: rgb(48, 93, 222);
     border-radius: 22px;
     border-top-right-radius: 0px;
@@ -34,7 +36,8 @@
 -moz-user-select: none; /* Firefox */
 -ms-user-select: none; /* IE10+/Edge */
 user-select: none; /* Standard */
-    
+    position: relative;
+    z-index: 3;
 
 }
 .AvdancedSearch_BodyListRight {
@@ -100,7 +103,6 @@ user-select: none; /* Standard */
     border-radius: 5px;
     margin-left:6px;
 }
-
 
 .AvdancedSearch_BodyLists_Header {
     direction: rtl;

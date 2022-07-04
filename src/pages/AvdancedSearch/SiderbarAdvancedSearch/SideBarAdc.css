@@ -92,6 +92,8 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
     box-sizing: border-box;
     padding: 35px 0px;
     padding-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
 }
 .containerAdcWierd{
     position: absolute;
@@ -122,8 +124,6 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
     border-top-right-radius: 20px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    
-   min-width: 210px !important;
 }
 .changeCircleItemAdc{
     display: flex;
@@ -158,4 +158,18 @@ box-shadow: 1px -1px 10px 0px rgba(20,99,198,0.59);
 }
 .backgroundSpecialStyleAcdAcc{
     background-color:  #3D39CC !important;
+}
+.checkboxSlider{
+    margin-top: 10px;
+    margin-right: -4px;
+}
+.defaultCircleAcd{
+    background-color: #363861;
+    font-size: 8px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0px;
 }

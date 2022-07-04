@@ -6,7 +6,7 @@ import './CustomAccardionStyle.css'
 function AccardionSideBar(props) {
   const [acc , setAcc] = useState(1);
   
-  const animationStylebackground ={transition: 'max-width 0.4s ease-out',maxWidth:props.act ? '200px':'120px',background :props.act ? "linear-gradient(263deg, rgba(20,22,37,1) 0%, rgba(37,38,66,1) 46%, rgba(51,53,91,1) 68%, rgba(63,66,105,1) 100%)" : "transparent" }
+  const animationStylebackground ={transition: 'max-width 0.4s ease-out',maxWidth:props.act ? '200px':'180px',background :props.act ? "linear-gradient(263deg, rgba(20,22,37,1) 0%, rgba(37,38,66,1) 46%, rgba(51,53,91,1) 68%, rgba(63,66,105,1) 100%)" : "transparent" }
   const animationStylebackgroundPrimary ={transition: 'max-width 0.4s ease-out',maxWidth:props.act ? '200px':'120px',background :props.act ? " linear-gradient(263deg, rgba(16,27,154,1) 0%, rgba(27,97,205,1) 95%)" : "transparent" ,boxShadow :props.act? '1px -1px 10px 0px rgba(20,99,198,0.59)':'none'}
   const animationStyle ={whiteSpace : 'nowrap',transition: 'max-width 0.4s ease-out , opacity 0.6s',maxWidth : props.act ? '200px'  : 0 ,opacity :props.act ? 1 : 0 , overflow:props.act ? 'visible' : 'hidden'}
   return (
@@ -19,7 +19,7 @@ function AccardionSideBar(props) {
             <div className='panelAccAdc' style={{maxHeight : acc ? '200px' : '0',overflow:acc ? 'visible': 'hidden'}}>
                 <div className='accardionIconAdc'>
                         {props.option.map((element, index)=>{
-                            return <div  style={{opacity : acc ? '1' : '0' , transition:`opacity 0.${1 - index*3/9+3}s`}} key={index} className={['iconItemAccAdc', props.tab===index ? 'iconItemActive':'',props.primary ? 'iconSelectionPrimaryacc':'','ajustEveryAdcAcc',index===0?'ajustEveryAdcAccfirst':'',index === props.option.length-1 ? 'ajustEveryAdcAcclast' : ''].join(" ")}><BsDot/></div>
+                            return <div  style={{ transition:`all  0.2s`, backgroundColor :acc  ? props.primary? '#0B71E2': '#2B2E4D' : 'transparent' }} key={index} className={['iconItemAccAdc', props.tab===index ? 'iconItemActive':'',props.primary ? 'iconSelectionPrimaryacc':'','ajustEveryAdcAcc',index===0?'ajustEveryAdcAccfirst':'',index === props.option.length-1 ? 'ajustEveryAdcAcclast' : ''].join(" ")}><BsDot/></div>
                         })}
                 </div>
                 <div style={animationStyle} className='accardionLabelAdc'>

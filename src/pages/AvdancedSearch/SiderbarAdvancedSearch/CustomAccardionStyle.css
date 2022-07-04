@@ -97,7 +97,7 @@ background: linear-gradient(263deg, rgba(20,22,37,1) 0%, rgba(37,38,66,1) 46%, r
     font-size: 23px;
 }
 .iconSelectionPrimaryacc{
-    background-color: #0B71E2 !important;
+    background-color: #0B71E2 ;
 }
 .ajustEveryAdcAcclast{
     border-bottom-left-radius: 20px;

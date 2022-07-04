@@ -17,7 +17,7 @@ function SpecialAcc(props) {
                   <div className='labelHeaderAccAdc' style={animationStyle}><span>{props.label}</span></div>
               </div>
               <div className='panelAccAdc' style={{maxHeight : acc ? '200px' : '0',overflow:acc ? 'visible': 'hidden'}}>
-                  <div className='accardionIconAdc' style={{opacity : acc ? '1' : '0' , transition:`opacity 0.4s`}}>
+                  <div className='accardionIconAdc' style={{opacity : acc ? '1' : '0' , transition:`opacity 0.4s`,backgroundColor:acc ? '':''}}>
                         <div  className='bannerDivAccAdc'>
                             <span>عنوان 1</span>
                         </div>

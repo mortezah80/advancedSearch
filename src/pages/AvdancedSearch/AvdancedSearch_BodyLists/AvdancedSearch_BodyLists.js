@@ -175,7 +175,7 @@ function AvdancedSearch_BodyLists() {
                 const stc = require('string-to-color');
                 const mycolor = stc(item.title); // => "#7f1de4"
                 return (
-                <SortableItem key={`item-${item.title}`} index={index} title={item.title} bookmark={item.bookmark} number1={item.number1} number2={item.number2} mycolor={mycolor}/>
+                <SortableItem className="zindexForSortableAcd" key={`item-${item.title}`} index={index} title={item.title} bookmark={item.bookmark} number1={item.number1} number2={item.number2} mycolor={mycolor}/>
                 )
                 })}
         
